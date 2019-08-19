@@ -35,16 +35,3 @@ output "acccess_key" {
   value = "${aws_iam_access_key.s3-backup-ro.id}"
 }
 
-output "secret_key" {
-  value = "${aws_iam_access_key.s3-backup-ro.secret}"
-}
-
-#output "count_bkts" {
-#  value = "${length(var.bkts)}"
-#}
-
-
-#output "bkts" {
-#  value = "${element(var.bkts, 1)}"
-#}
-
